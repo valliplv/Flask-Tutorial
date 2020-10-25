@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %} 
+    <div class ="container">
+        <h1> Hello Welcome to my flask application and i am from template renderence and template inheritance </h1>
+        <h2> Welcome {{ name|lower}} </h2>  <!--name is a context variable with filter lower-->
+    </div>
+{% endblock %}
